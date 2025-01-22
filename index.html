@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="UTF-8"/>
+        <meta name="Owner" content="Basel"/>
+        <meta name="description" content="This is Book Store" />
+        <title>
+            Book Store
+        </title>
+        <style></style>
+        <script></script>
+    </head>
+    
+    <body>
+        <h1> Your Book Is Here </h1>
+        <h2> About Us</h2>
+        <p class="one"> We are a big book store that have more than 10k of books</p>
+        <p class="two"> Our owner is ( <i> Basel </i> )</p>
+        <p> We have Big Sale Today <mark> <b> 50% discount </b> </mark> on any book </p>
+        <p> Before Discount: <del> 100$ </del> After Discount: 50$ <b> <u> 50% off </u> </b></p>
+        <a href="https://www.google.com" target="_blank" title="Go to google"> Google </a>
+        <a href="mailto:baselsalman759@gmail.com" title="Go to email"> Contact Us </a>
+        <img src="../Python Projects/Flask/test.jpg!w700wp" alt="">
+
+        <ul> 
+            <li> 
+                 Books Type 
+                 <ol> 
+                    <li> 
+                        Fun
+                      <dl> 
+                           <dt> Hello Happy </dt>
+                           <dd> This is make you happy </dd>
+                           <dt> WEAre </dt>
+                           <dd> Comeida book </dd>
+                      </dl>
+                    </li>
+                    <li>
+                        Adventure
+                        <dl>
+                            <dt> Hello World </dt>
+                            <dd> Adventures around the world </dd>
+                            <dt> RainForest Adventures </dt>
+                            <dd> Adventures in rainforests </dd>
+                        </dl>
+                    </li>
+                 </ol>
+            </li>
+        </ul>
+
+        <hr/>
+
+        <table border="1">
+            <caption> Books Library </caption>
+            <thead>
+                <tr>
+                    <th> Type </th>
+                    <th> Name </th>
+                    <th> Author </th>
+                    <th> Year </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Fun </td>
+                    <td> Hello </td>
+                    <td> Basel </td>
+                    <td> 2005 </td>
+                </tr>
+                <tr>
+                    <td> Adventure </td>
+                    <td> Hello World </td>
+                    <td> Seif </td>
+                    <td> 2015 </td>
+                </tr>
+                <tr>
+                    <td> Fun </td>
+                    <td> Happy </td>
+                    <td> Amer </td>
+                    <td> 2020 </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> Total </td>
+                    <td> 4 </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <form  method="post" target="_blank">
+
+            <input type="text" placeholder="Username" name="User_Name" required>
+            <br>
+            <br>
+            <input type="email" placeholder="Email" name="mail" required>
+            <br>
+            <br>
+            <input type="password" placeholder="Password" name="password" required minlength="10" maxlength="20">
+            <br>
+            <br>
+            <input type="range" min="10" max="1000" step="10">
+            <br>
+            <br>
+            <hr>
+            <div class="sex">
+                <div class="male">
+                    <input id="sex1" type="radio" name="Male" checked>
+                    <label for="sex1"> Male </label>
+                    <br>
+                </div>
+                <div class="female">
+                    <input id="sex2" type="radio" name="Female">
+                    <label for="sex2"> Female </label>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+            <div class="programming_language">
+                <div class="Python">
+                    <input id="py" type="checkbox" name="Python">
+                    <label for="py"> Python </label>
+                    <br>
+                </div>
+                <div class="HTML">
+                    <input id="html" type="checkbox" name="HTML">
+                    <label for="html"> HTML </label>
+                    <br>
+                </div>
+                <div class="CSS">
+                    <input id="css" type="checkbox" name="CSS">
+                    <label for="css"> CSS </label>
+                    <br>
+                </div>
+                <div class="PHP">
+                    <input id="php" type="checkbox" name="PHP">
+                    <label for="php"> PHP </label>
+                    <br>
+                </div>
+                <div class="JavaScript">
+                    <input id="JS" type="checkbox" name="JavaScript">
+                    <label for="JS"> JavaScript </label>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+
+            <br> 
+            <hr>
+
+            <input list="programming" name="programming_language" placeholder="languages">
+            <datalist id="programming">
+                <option value="Python">
+                <option value="PHP">
+                <option value="HTML">
+                <option value="C++">
+                <option value="CSS">
+                <option value="JavaScript">
+            </datalist>
+
+            <button> About Us </button>
+            <input type="date"/>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Save">
+           
+        </form>
+
+    </body>
+
+</html>
